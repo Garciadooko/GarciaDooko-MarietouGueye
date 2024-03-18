@@ -9,17 +9,15 @@ header {
     min-height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
-    
     background-position: center;
-    
     width: 100vw;
-    
-    
 }
+
 a.logo {
   text-decoration: none;
 }
-h1 {
+
+.logo h1 {
     
     text-align: left left ;
     margin: 10px;
@@ -31,7 +29,7 @@ h1 {
     color :white;
     font-size: 2rem;
 }
- h1 span {
+.logo  h1 span {
     color:white;
     font-weight: bold;
     font-size: 4rem;
@@ -162,12 +160,15 @@ header .socials a:hover{
  }
  .title h1 {
      
-     text-align: left;
- 
      
-     
-     color: white;
-     font-size: 50px;
+     font-size: 50px; 
+    margin: 10px;
+    padding: 10px 10px;
+    text-decoration: solid aliceblue;
+    text-transform: uppercase;
+    border: 10px transparent aliceblue;
+    font-family: century;
+    color :white;
  }
  .see-more {
      position:absolute;
@@ -545,7 +546,6 @@ img {
 
 }
 
-  
 
   
 
