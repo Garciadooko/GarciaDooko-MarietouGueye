@@ -574,6 +574,9 @@ img {
   .city-item .desc-item {
     width: 100%;
   }
+  section div.principal{
+    display: block;
+  }
 
 
 
