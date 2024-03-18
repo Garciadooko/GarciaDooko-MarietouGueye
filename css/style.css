@@ -144,19 +144,10 @@ header .socials a:hover{
     
     width: 55%;
   }
-  .title{
-    
-    /* bottom: 35%;
-    margin: 10px;
-    padding: 10 20px;
-    position:absolute;
-    width: 30%;
-    right: 120 vh; */
-
+  
     
     
-    
- }
+ 
  .title h1 {
      
      
@@ -293,16 +284,7 @@ input[type=text], select, textarea {
     display: table;
     clear: both;
   }
-  /* main {
-    background-color: rgb(237, 229, 229);
-    min-height: 110vh;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
-    width: auto;
-    
-    background-position: center; 
-} */
+  
 footer.socials {
     display: flex;
     text-decoration: none;
