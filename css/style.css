@@ -146,13 +146,12 @@ header .socials a:hover{
   }
   .title{
     
-    
-    bottom: 35%;
+    /* bottom: 35%;
     margin: 10px;
     padding: 10 20px;
     position:absolute;
     width: 30%;
-    right: 120 vh;
+    right: 120 vh; */
 
     
     
@@ -161,7 +160,7 @@ header .socials a:hover{
  .title h1 {
      
      
-     font-size: 50px; 
+    font-size: 50px; 
     margin: 10px;
     padding: 10px 10px;
     text-decoration: solid aliceblue;
@@ -196,14 +195,12 @@ header .socials a:hover{
  }
  .container {
     display:inline-block;
-    
     position: absolute;
     align-items: center;
     right: 100vh;
     bottom: 10px;
     margin: 10px;
     padding: 10 20px;
-    position:absolute;
     width: 45%;
     right: 10px;
 
@@ -268,17 +265,18 @@ input[type=text], select, textarea {
   }
   
   /* Style the container/contact section */
-  main.container1 {
+  main.contact {
     border-radius: 5px;
-    background-color: #f2f2f2;
     padding: 10px;
     position: relative;
     bottom: 0;
     align-items: center;
-    width: 50%;
-    height: 100pc;
-    right: 40vh;
+    background-color:rgb(237, 229, 229);
 
+  }
+
+  .contact .head {
+    text-align:center;
   }
   
   /* Create two columns that float next to eachother */
@@ -295,7 +293,7 @@ input[type=text], select, textarea {
     display: table;
     clear: both;
   }
-  main {
+  /* main {
     background-color: rgb(237, 229, 229);
     min-height: 110vh;
     background-size: cover;
@@ -303,8 +301,8 @@ input[type=text], select, textarea {
     width: 100%;
     width: auto;
     
-    background-position: center;
-}
+    background-position: center; 
+} */
 footer.socials {
     display: flex;
     text-decoration: none;
@@ -541,10 +539,58 @@ img {
     background-position: center;
     
     width: 100vw;
-    
+
+}
+
+@media only screen and (max-width: 600px) {
+
+  .container {
+    position: static;
+    display: block;
+    padding: 10 20px;
+    width: 100%;
+  }
+
+  .row:after {
+    width: 100%;
+  }
+
+  .column {
+    width: 100%;
+  }
+
+  header div.principal {
+    display: block;
+  }
+
+  .city-item  {
+    display: block;
+  }
+
+  .city-item .image-item {
+    width: 100%;
+  }
+
+  .city-item .desc-item {
+    width: 100%;
+  }
+
+
 
 
 }
+
+/* @media only screen and (min-width: 600px) {
+
+  .container {
+    position: static;
+    display: block;
+    padding: 10 20px;
+    width: 100%;
+ }
+
+} */
+
 
 
   
