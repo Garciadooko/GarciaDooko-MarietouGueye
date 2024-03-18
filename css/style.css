@@ -328,7 +328,7 @@ body main {
     background-color:rgb(237, 229, 229); ;
 }
 section.dubai {
-    background-image: url(./images/burj-khalifa-2212978_1920.jpg);
+    background-image: url(../images/burj-khalifa-2212978_1920.jpg);
 
     min-height: 100%;
     height: 20vh;
@@ -493,7 +493,7 @@ img {
   font-size: 17px;
 }
 #losangeles {
-  background-image: url(./images/pexels-soly-moses-14825208.jpg);
+  background-image: url(../images/pexels-soly-moses-14825208.jpg);
   min-height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
@@ -504,7 +504,7 @@ img {
     
 }
 #mykonos {
-  background-image: url(./images/pexels-axp-photography-18774885.jpg);
+  background-image: url(../images/pexels-axp-photography-18774885.jpg);
   min-height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
@@ -516,7 +516,7 @@ img {
 
 }
 #london{
-  background-image: url(./images/pexels-bill-emrich-230794.jpg);
+  background-image: url(../images/pexels-bill-emrich-230794.jpg);
   min-height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
@@ -529,7 +529,7 @@ img {
 
 }
 #rio{
-  background-image: url(./images/rio-de-janeiro-1963744_1920.jpg);
+  background-image: url(../images/rio-de-janeiro-1963744_1920.jpg);
   min-height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
